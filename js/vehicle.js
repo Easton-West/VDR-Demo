@@ -3,7 +3,7 @@ async function loadVehicle() {
     const id = params.get("id");
     const type = params.get("type");
 
-    const response = await fetch("/data/vehicles.json");
+    const response = await fetch("data/vehicles.json");
 
     if (!response.ok) {
         throw new Error(
