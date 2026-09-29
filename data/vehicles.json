@@ -1,0 +1,1188 @@
+{
+    "cars": [
+
+        {
+            "manufacturer": "Tesla",
+
+            "models": [
+
+                {
+                    "id": "tesla-model-s",
+                    "name": "Model S",
+                    "year": 2026,
+					"type": "sports",
+
+                    "sections": {
+
+                        "GENERAL": {
+                            "Length": "197.7 in",
+                            "Width": "78.3 in",
+                            "Height": "56.3 in",
+                            "Wheelbase": "116.5 in",
+                            "Curb Weight": "4,561 lb"
+                        },
+
+                        "POWERTRAIN": {
+                            "Power": "670 hp",
+                            "Drive": "AWD",
+                            "Transmission": "Single-speed automatic",
+                            "Fuel": "Electric"
+                        },
+
+						"SENSORS": {
+							"Forward Radar": "Active",
+							"Rear Radar": "Active",
+							"Ultrasonic Sensors": "Active",
+							"Camera Array": "Active"
+						}
+                    },
+					
+					"NOISES PRODUCED": [
+						{
+							"source": "A/C",
+							"frequency": "1250 Hz",
+							"harmonics": "2nd",
+							"notes": "Continuous thing that always does the same thing. When it things the thing there is no there there."
+						},
+						{
+							"source": "Wheels",
+							"frequency": "640 Hz",
+							"harmonics": "1st",
+							"notes": "Loud"
+						},
+						{
+							"source": "Wheels",
+							"frequency": "1280 Hz",
+							"harmonics": "2nd",
+							"notes": ""
+						},
+						{
+							"source": "Driver Door",
+							"frequency": "820 Hz",
+							"harmonics": "1st"
+						},
+						{
+							"source": "Passenger Door",
+							"frequency": "795 Hz",
+							"harmonics": "1st",
+							"notes": ""
+						},
+						{
+							"source": "Rear LH Door",
+							"frequency": "810 Hz",
+							"harmonics": "1st",
+							"notes": ""
+						},
+						{
+							"source": "Rear RH Door",
+							"frequency": "805 Hz",
+							"harmonics": "1st",
+							"notes": ""
+						}
+					],
+
+                    "images": [
+						{
+							"name": "Black",
+							"file": "images/tesla/model-s/black.jpg",
+							"comment": "This is a black car"
+						},
+						{
+							"name": "White",
+							"file": "images/tesla/model-s/white.png"
+						},
+						{
+							"name": "Red",
+							"file": "images/tesla/model-s/red.jpg",
+							"comment": "This drove around the world"
+						}
+					]
+                },
+
+                {
+                    "id": "tesla-model-3",
+                    "name": "Model 3",
+                    "year": 2026,
+					"type": "sports",
+
+                    "sections": {
+
+                        "GENERAL": {
+                            "Length": "185.8 in",
+                            "Width": "72.8 in",
+                            "Height": "56.4 in",
+                            "Wheelbase": "113.2 in"
+                        },
+
+                        "POWERTRAIN": {
+                            "Drive": "RWD / AWD",
+                            "Transmission": "Single-speed automatic",
+                            "Fuel": "Electric"
+                        },
+						"SENSORS": {}
+                    },
+
+                    "images": [
+
+                        {
+                            "name": "Exterior",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Front",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Interior",
+                            "file": ""
+                        }
+
+                    ]
+                },
+				
+				{
+					"id": "tesla-a-vehicle-1",
+					"name": "A Vehicle (1)",
+					"year": 2026,
+					"type": "sports",
+					"sections": {
+						"GENERAL": {
+							"Length": "190.0 in",
+							"Width": "76.0 in",
+							"Height": "54.0 in",
+							"Wheelbase": "112.0 in",
+							"Curb Weight": "3,900 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "500 hp",
+							"Drive": "AWD",
+							"Transmission": "Single-speed automatic",
+							"Fuel": "Electric"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "tesla-a-vehicle-2",
+					"name": "A Vehicle (2)",
+					"year": 2026,
+					"type": "sedan",
+					"sections": {
+						"GENERAL": {
+							"Length": "193.2 in",
+							"Width": "77.1 in",
+							"Height": "56.1 in",
+							"Wheelbase": "114.5 in",
+							"Curb Weight": "4,050 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "420 hp",
+							"Drive": "AWD",
+							"Transmission": "Single-speed automatic",
+							"Fuel": "Electric"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "tesla-b-vehicle",
+					"name": "B Vehicle",
+					"year": 2026,
+					"type": "muscle",
+					"sections": {
+						"GENERAL": {
+							"Length": "198.4 in",
+							"Width": "78.8 in",
+							"Height": "55.8 in",
+							"Wheelbase": "116.8 in",
+							"Curb Weight": "4,300 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "610 hp",
+							"Drive": "RWD",
+							"Transmission": "Single-speed automatic",
+							"Fuel": "Electric"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "tesla-c-vehicle",
+					"name": "C Vehicle",
+					"year": 2026,
+					"type": "sedan",
+					"sections": {
+						"GENERAL": {
+							"Length": "185.5 in",
+							"Width": "74.8 in",
+							"Height": "57.0 in",
+							"Wheelbase": "109.5 in",
+							"Curb Weight": "3,650 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "350 hp",
+							"Drive": "RWD",
+							"Transmission": "Single-speed automatic",
+							"Fuel": "Electric"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "tesla-m-vehicle",
+					"name": "M Vehicle",
+					"year": 2026,
+					"type": "sports",
+					"sections": {
+						"GENERAL": {
+							"Length": "188.7 in",
+							"Width": "75.9 in",
+							"Height": "53.6 in",
+							"Wheelbase": "111.0 in",
+							"Curb Weight": "3,780 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "550 hp",
+							"Drive": "AWD",
+							"Transmission": "Single-speed automatic",
+							"Fuel": "Electric"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "tesla-p-vehicle",
+					"name": "P Vehicle",
+					"year": 2026,
+					"type": "muscle",
+					"sections": {
+						"GENERAL": {
+							"Length": "201.0 in",
+							"Width": "79.0 in",
+							"Height": "56.2 in",
+							"Wheelbase": "118.0 in",
+							"Curb Weight": "4,420 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "680 hp",
+							"Drive": "AWD",
+							"Transmission": "Single-speed automatic",
+							"Fuel": "Electric"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				}
+            ]
+        },
+
+
+        {
+            "manufacturer": "Ford",
+
+            "models": [
+
+                {
+                    "id": "ford-mustang",
+                    "name": "Mustang",
+                    "year": 2026,
+					"type": "muscle",
+
+                    "sections": {
+
+                        "GENERAL": {
+                            "Length": "189.4 in",
+                            "Width": "75.9 in",
+                            "Height": "55.0 in",
+                            "Wheelbase": "107.0 in"
+                        },
+
+                        "POWERTRAIN": {
+                            "Engine": "5.0L V8",
+                            "Power": "480 hp",
+                            "Drive": "RWD",
+                            "Transmission": "10-speed automatic"
+                        },
+						"SENSORS": {}
+                    },
+
+                    "images": [
+
+                        {
+                            "name": "Exterior",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Front",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Rear",
+                            "file": ""
+                        }
+
+                    ]
+                },
+				
+				{
+					"id": "ford-a-vehicle-1",
+					"name": "A Vehicle (1)",
+					"year": 2026,
+					"type": "muscle",
+					"sections": {
+						"GENERAL": {
+							"Length": "194.5 in",
+							"Width": "77.5 in",
+							"Height": "55.2 in",
+							"Wheelbase": "113.0 in",
+							"Curb Weight": "3,980 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "480 hp",
+							"Drive": "RWD",
+							"Transmission": "10-speed automatic",
+							"Fuel": "Gasoline"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "ford-a-vehicle-2",
+					"name": "A Vehicle (2)",
+					"year": 2026,
+					"type": "sedan",
+					"sections": {
+						"GENERAL": {
+							"Length": "191.0 in",
+							"Width": "75.5 in",
+							"Height": "57.2 in",
+							"Wheelbase": "112.5 in",
+							"Curb Weight": "3,720 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "310 hp",
+							"Drive": "FWD",
+							"Transmission": "8-speed automatic",
+							"Fuel": "Gasoline"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "ford-b-vehicle",
+					"name": "B Vehicle",
+					"year": 2026,
+					"type": "sports",
+					"sections": {
+						"GENERAL": {
+							"Length": "187.8 in",
+							"Width": "76.4 in",
+							"Height": "53.9 in",
+							"Wheelbase": "110.8 in",
+							"Curb Weight": "3,610 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "450 hp",
+							"Drive": "RWD",
+							"Transmission": "6-speed manual",
+							"Fuel": "Gasoline"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "ford-c-vehicle",
+					"name": "C Vehicle",
+					"year": 2026,
+					"type": "sedan",
+					"sections": {
+						"GENERAL": {
+							"Length": "189.2 in",
+							"Width": "74.9 in",
+							"Height": "56.8 in",
+							"Wheelbase": "111.6 in",
+							"Curb Weight": "3,580 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "290 hp",
+							"Drive": "AWD",
+							"Transmission": "8-speed automatic",
+							"Fuel": "Gasoline"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "ford-m-vehicle",
+					"name": "M Vehicle",
+					"year": 2026,
+					"type": "sports",
+					"sections": {
+						"GENERAL": {
+							"Length": "192.5 in",
+							"Width": "77.2 in",
+							"Height": "54.1 in",
+							"Wheelbase": "113.8 in",
+							"Curb Weight": "3,850 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "520 hp",
+							"Drive": "AWD",
+							"Transmission": "10-speed automatic",
+							"Fuel": "Gasoline"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				},
+				{
+					"id": "ford-p-vehicle",
+					"name": "P Vehicle",
+					"year": 2026,
+					"type": "muscle",
+					"sections": {
+						"GENERAL": {
+							"Length": "200.1 in",
+							"Width": "78.6 in",
+							"Height": "55.7 in",
+							"Wheelbase": "117.0 in",
+							"Curb Weight": "4,250 lb"
+						},
+						"POWERTRAIN": {
+							"Power": "600 hp",
+							"Drive": "RWD",
+							"Transmission": "10-speed automatic",
+							"Fuel": "Gasoline"
+						},
+						"SENSORS": {}
+					},
+					"images": []
+				}
+
+            ]
+        }
+
+    ],
+
+
+    "trucks": [
+
+        {
+            "manufacturer": "Ford",
+
+            "models": [
+
+                {
+                    "id": "ford-f150",
+                    "name": "F-150",
+                    "year": 2026,
+					"type": "pickup",
+                    "sections": {
+
+                        "GENERAL": {
+                            "Length": "231.7 in",
+                            "Width": "79.8 in",
+                            "Wheelbase": "145.4 in"
+                        },
+
+                        
+						"SENSORS": {},
+						"POWERTRAIN": {
+                            "Engine": "5.0L V8",
+                            "Power": "400 hp",
+                            "Drive": "4WD",
+                            "Transmission": "10-speed automatic"
+                        }
+                    },
+
+                    "images": [
+
+                        {
+                            "name": "Exterior",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Front",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Bed",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Interior",
+                            "file": ""
+                        }
+
+                    ]
+                },
+
+
+                {
+                    "id": "ford-ranger",
+                    "name": "Ranger",
+                    "year": 2026,
+					"type": "pickup",
+                    "sections": {
+
+                        "GENERAL": {
+                            "Length": "210.6 in",
+                            "Width": "79.0 in",
+                            "Height": "75.4 in",
+                            "Wheelbase": "128.7 in"
+                        },
+
+                        "POWERTRAIN": {
+                            "Engine": "2.3L EcoBoost I-4",
+                            "Power": "315 hp",
+                            "Drive": "4WD",
+                            "Transmission": "10-speed automatic"
+                        },
+						"SENSORS": {}
+                    },
+
+                    "images": [
+
+                        {
+                            "name": "Exterior",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Front",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Interior",
+                            "file": ""
+                        }
+
+                    ]
+                }
+
+            ]
+        },
+
+
+        {
+            "manufacturer": "Toyota",
+
+            "models": [
+
+                {
+                    "id": "toyota-tacoma",
+                    "name": "Tacoma",
+                    "year": 2026,
+					"type": "pickup",
+                    "sections": {
+
+                        "GENERAL": {
+                            "Length": "213.0 in",
+                            "Width": "76.9 in",
+                            "Wheelbase": "131.9 in"
+                        },
+
+                        "POWERTRAIN": {
+                            "Engine": "2.4L Turbo I-4",
+                            "Drive": "4WD",
+                            "Transmission": "8-speed automatic"
+                        },
+						"SENSORS": {}
+                    },
+
+                    "images": [
+
+                        {
+                            "name": "Exterior",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Front",
+                            "file": ""
+                        },
+
+                        {
+                            "name": "Bed",
+                            "file": ""
+                        }
+
+                    ]
+                }
+
+            ]
+        }
+
+    ],
+
+	"airplanes": [
+		{
+			"manufacturer": "Cessna",
+			"models": [
+				{
+					"id": "cessna-skyhawk",
+					"name": "Skyhawk",
+					"year": 1955,
+					"type": "trainer",
+					"sections": {
+						"GENERAL": {
+							"Length": "27 ft 2 in",
+							"Height": "8 ft 11 in",
+							"Wingspan": "36 ft 1 in",
+							"Wing Area": "174 sq ft",
+							"Maximum Occupants": "4",
+							"Maximum Takeoff Weight": "2,550 lb",
+							"Basic Empty Weight": "1,680 lb",
+							"Useful Load": "878 lb",
+							"Usable Fuel": "53 gal"
+						},
+						"POWERTRAIN": {
+							"Engine Manufacturer": "Lycoming",
+							"Engine Model": "IO-360-L2A",
+							"Power Output": "180 hp",
+							"Propeller Manufacturer": "McCauley",
+							"Propeller": "2-blade aluminum, fixed pitch",
+							"Fuel": "AvGas"
+						},
+						"AVIONICS": {
+							"Flight Deck": "Garmin G1000 NXi",
+							"Standby Flight Instrument": "Garmin GI 275",
+							"ADS-B": "In and Out",
+							"Autopilot": "Garmin GFC 700",
+							"Navigation": "Integrated GPS",
+							"Weather": "Integrated",
+							"Traffic": "Integrated"
+						},
+						"PERFORMANCE": {
+							"Maximum Cruise Speed": "124 KTAS",
+							"Maximum Range": "640 nm",
+							"Maximum Climb Rate": "730 ft/min",
+							"Service Ceiling": "14,000 ft",
+							"Maximum Limit Speed": "163 KIAS",
+							"Stall Speed": "48 KCAS",
+							"Takeoff Distance": "1,630 ft",
+							"Landing Distance": "1,335 ft"
+						}
+					},
+					"NOISES PRODUCED": [],
+					"images": [
+						{
+							"name": "Exterior",
+							"file": ""
+						},
+						{
+							"name": "Cockpit",
+							"file": ""
+						},
+						{
+							"name": "Cabin",
+							"file": ""
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"manufacturer": "Cirrus",
+			"models": [
+				{
+					"id": "cirrus-sr22",
+					"name": "SR22",
+					"year": 2001,
+					"type": "general aviation",
+					"sections": {
+						"GENERAL": {
+							"Length": "26 ft",
+							"Height": "8 ft 11 in",
+							"Wingspan": "38 ft 4 in",
+							"Cabin Width": "49 in",
+							"Cabin Height": "50 in",
+							"Maximum Gross Weight": "3,600 lb",
+							"Base Weight": "2,252 lb",
+							"Useful Load": "1,348 lb",
+							"Cabin Payload": "983 lb"
+						},
+						"POWERTRAIN": {
+							"Engine Manufacturer": "Continental",
+							"Engine Model": "IO-550-N",
+							"Power Output": "310 hp",
+							"Propeller": "3-blade",
+							"Fuel": "100LL AvGas"
+						},
+						"AVIONICS": {
+							"Avionics Suite": "Cirrus Perspective+ by Garmin",
+							"Primary Flight Displays": "Dual Garmin Perspective+",
+							"GPS": "Dual WAAS GPS",
+							"ADS-B": "In and Out",
+							"Traffic": "Integrated",
+							"Weather": "Integrated",
+							"Terrain Awareness": "Integrated",
+							"Autopilot": "Integrated"
+						},
+						"PERFORMANCE": {
+							"Maximum Cruise Speed": "183 KTAS",
+							"Maximum Range": "1,169 nm",
+							"Maximum Operating Altitude": "17,500 ft",
+							"Climb Rate": "1,270 ft/min",
+							"Stall Speed with Flaps": "60 KCAS",
+							"Takeoff Distance": "1,082 ft",
+							"Landing Ground Roll": "1,178 ft"
+						}
+					},
+					"NOISES PRODUCED": [],
+					"images": [
+						{
+							"name": "Exterior",
+							"file": ""
+						},
+						{
+							"name": "Cockpit",
+							"file": ""
+						},
+						{
+							"name": "Cabin",
+							"file": ""
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"manufacturer": "Boeing",
+			"models": [
+				{
+					"id": "boeing-737-8",
+					"name": "737-8",
+					"year": 2017,
+					"type": "airliner",
+					"sections": {
+						"GENERAL": {
+							"Length": "129 ft 6 in",
+							"Height": "40 ft 4 in",
+							"Wingspan": "117 ft 10 in",
+							"Maximum Takeoff Weight": "182,200 lb",
+							"Maximum Passengers": "210",
+							"Typical Two-Class Seating": "160–180"
+						},
+						"POWERTRAIN": {
+							"Engine Manufacturer": "CFM International",
+							"Engine Model": "LEAP-1B",
+							"Engine Count": "2",
+							"Fuel": "Jet A / Jet A-1"
+						},
+						"AVIONICS": {
+							"Flight Management System": "Dual integrated FMS",
+							"Navigation": "Dual integrated GPS",
+							"Weather Radar": "Installed",
+							"Traffic Collision Avoidance": "TCAS",
+							"Ground Proximity Warning": "EGPWS",
+							"Autopilot": "Integrated"
+						},
+						"PERFORMANCE": {
+							"Maximum Range": "Up to 3,500 nm",
+							"Cruise Speed": "Mach 0.79",
+							"Maximum Operating Altitude": "41,000 ft"
+						}
+					},
+					"NOISES PRODUCED": [],
+					"images": [
+						{
+							"name": "Exterior",
+							"file": ""
+						},
+						{
+							"name": "Cockpit",
+							"file": ""
+						},
+						{
+							"name": "Cabin",
+							"file": ""
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"manufacturer": "Airbus",
+			"models": [
+				{
+					"id": "airbus-a320neo",
+					"name": "A320neo",
+					"year": 2016,
+					"type": "airliner",
+					"sections": {
+						"GENERAL": {
+							"Length": "123 ft 3 in",
+							"Height": "38 ft 7 in",
+							"Wingspan": "117 ft 5 in",
+							"Fuselage Width": "13 ft 0 in",
+							"Maximum Takeoff Weight": "174,200 lb",
+							"Maximum Seating": "194",
+							"Typical Two-Class Seating": "150–180"
+						},
+						"POWERTRAIN": {
+							"Engine Options": "CFM LEAP-1A or Pratt & Whitney PW1100G",
+							"Engine Count": "2",
+							"Fuel": "Jet A / Jet A-1"
+						},
+						"AVIONICS": {
+							"Flight Management System": "Integrated FMS",
+							"Navigation": "Integrated GPS / IRS",
+							"Weather Radar": "Installed",
+							"Traffic Collision Avoidance": "TCAS",
+							"Ground Proximity Warning": "EGPWS",
+							"Autopilot": "Integrated",
+							"Flight Control System": "Digital fly-by-wire"
+						},
+						"PERFORMANCE": {
+							"Maximum Range": "3,400 nm",
+							"Maximum Operating Speed": "Mach 0.82",
+							"Maximum Cruise Altitude": "41,000 ft"
+						}
+					},
+					"NOISES PRODUCED": [],
+					"images": [
+						{
+							"name": "Exterior",
+							"file": ""
+						},
+						{
+							"name": "Cockpit",
+							"file": ""
+						},
+						{
+							"name": "Cabin",
+							"file": ""
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"manufacturer": "Lockheed Martin",
+			"models": [
+				{
+					"id": "lockheed-f-16c",
+					"name": "F-16C Fighting Falcon",
+					"year": 1984,
+					"type": "fighter",
+					"sections": {
+						"GENERAL": {
+							"Length": "49 ft 5 in",
+							"Height": "16 ft",
+							"Wingspan": "32 ft 8 in",
+							"Empty Weight": "19,700 lb",
+							"Maximum Takeoff Weight": "37,500 lb",
+							"Internal Fuel Capacity": "7,000 lb",
+							"Crew": "1"
+						},
+						"POWERTRAIN": {
+							"Engine Type": "Afterburning turbofan",
+							"Engine Count": "1",
+							"Engine Options": "Pratt & Whitney F100 or General Electric F110",
+							"Maximum Thrust": "27,000 lb",
+							"Fuel": "JP-8 / Jet Fuel"
+						},
+						"AVIONICS": {
+							"Fire Control Radar": "AN/APG-series",
+							"Radar Warning System": "Installed",
+							"Navigation": "Integrated inertial / GPS",
+							"Data Link": "Mission dependent",
+							"Electronic Warfare": "Mission dependent",
+							"Targeting Systems": "Mission dependent"
+						},
+						"PERFORMANCE": {
+							"Maximum Speed": "1,500 mph / Mach 2",
+							"Service Ceiling": "Above 50,000 ft",
+							"Ferry Range": "More than 1,740 nm"
+						}
+					},
+					"NOISES PRODUCED": [],
+					"images": [
+						{
+							"name": "Exterior",
+							"file": ""
+						},
+						{
+							"name": "Cockpit",
+							"file": ""
+						},
+						{
+							"name": "Airframe",
+							"file": ""
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"manufacturer": "Lockheed Martin",
+			"models": [
+				{
+					"id": "lockheed-c-130j",
+					"name": "C-130J Super Hercules",
+					"year": 1999,
+					"type": "airlift",
+					"sections": {
+						"GENERAL": {
+							"Length": "97 ft 9 in",
+							"Height": "38 ft 10 in",
+							"Wingspan": "132 ft 7 in",
+							"Maximum Takeoff Weight": "164,000 lb",
+							"Operating Empty Weight": "87,961 lb",
+							"Maximum Payload": "47,000 lb"
+						},
+						"POWERTRAIN": {
+							"Engine Manufacturer": "Rolls-Royce",
+							"Engine Model": "AE 2100D3",
+							"Engine Count": "4",
+							"Propeller": "GE-Dowty Aerospace R391",
+							"Propeller Type": "6-blade composite",
+							"Fuel": "JP-8 / Jet Fuel"
+						},
+						"AVIONICS": {
+						"Flight Management System": "Integrated",
+						"Navigation": "Integrated GPS / INS",
+						"Weather Radar": "Installed",
+						"Terrain Awareness": "Integrated",
+						"Traffic Awareness": "Integrated",
+						"Electronic Flight Instrument System": "Integrated",
+						"Mission Systems": "Configuration dependent"
+						},
+						"PERFORMANCE": {
+							"Maximum Cruise Speed": "365 KTAS",
+							"Range with 40,000 lb Payload": "2,160 nm",
+							"Service Ceiling": "26,000 ft with 44,500 lb payload",
+							"Landing Distance": "3,200 ft at 135,000 lb"
+						}
+					},
+					"NOISES PRODUCED": [],
+					"images": [
+						{
+							"name": "Exterior",
+							"file": ""
+						},
+						{
+							"name": "Cargo Compartment",
+							"file": ""
+						},
+						{
+							"name": "Cockpit",
+							"file": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	
+	"motorcycles": [
+    {
+        "manufacturer": "Honda",
+        "models": [
+            {
+                "id": "honda-gold-wing",
+                "name": "Gold Wing",
+                "year": 1975,
+                "type": "touring",
+                "sections": {
+                    "GENERAL": {
+                        "Model ID": "GL1800B",
+                        "Seat Height": "29.3 in",
+                        "Wheelbase": "66.9 in",
+                        "Curb Weight": "806 lb",
+                        "Fuel Capacity": "5.5 gal",
+                        "Front Tire": "130/70-18",
+                        "Rear Tire": "200/55-16"
+                    },
+                    "POWERTRAIN": {
+                        "Engine": "1833cc liquid-cooled horizontally opposed six-cylinder four-stroke",
+                        "Valve Train": "Unicam SOHC, four valves per cylinder",
+                        "Compression Ratio": "10.5:1",
+                        "Fuel System": "Programmed Fuel Injection (PGM-FI)",
+                        "Transmission": "6-speed manual",
+                        "Final Drive": "Shaft"
+                    },
+                    "SUSPENSION AND BRAKES": {
+                        "Front Suspension": "Double wishbone, 4.3 in travel",
+                        "Rear Suspension": "Pro Arm single-sided swingarm with Pro-Link single shock, 4.1 in travel",
+                        "Front Brakes": "Dual 320 mm discs",
+                        "Rear Brake": "Single 316 mm disc"
+                    },
+                    "AVIONICS": {
+                        "Display": "Digital instrumentation",
+                        "Cruise Control": "Standard",
+                        "Apple CarPlay": "Wireless compatible",
+                        "Android Auto": "Wireless compatible",
+                        "Reverse": "Standard"
+                    },
+                    "PERFORMANCE": {
+                        "Rake": "30.0°",
+                        "Trail": "4.3 in"
+                    }
+                },
+                "NOISES PRODUCED": [],
+                "images": [
+                    {
+                        "name": "Exterior",
+                        "file": "",
+                        "comment": "Standard 2026 Gold Wing configuration."
+                    },
+                    {
+                        "name": "Cockpit",
+                        "file": "",
+                        "comment": "Gold Wing instrumentation and rider controls."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "manufacturer": "Kawasaki",
+        "models": [
+            {
+                "id": "kawasaki-ninja-zx-6r",
+                "name": "Ninja ZX-6R",
+                "year": 1995,
+                "type": "supersport",
+                "sections": {
+                    "GENERAL": {
+                        "Overall Length": "79.7 in",
+                        "Overall Width": "28.0 in",
+                        "Overall Height": "43.3 in",
+                        "Ground Clearance": "5.1 in",
+                        "Seat Height": "32.7 in",
+                        "Wheelbase": "55.1 in",
+                        "Curb Weight": "436.6 lb (ABS)",
+                        "Fuel Capacity": "4.5 gal",
+                        "Frame Type": "Aluminum perimeter"
+                    },
+                    "POWERTRAIN": {
+                        "Engine": "636cc 4-stroke inline-four",
+                        "Valve Train": "DOHC, 16-valve",
+                        "Cooling": "Liquid-cooled",
+                        "Compression Ratio": "12.9:1",
+                        "Fuel System": "DFI with 38 mm Keihin throttle bodies",
+                        "Transmission": "6-speed",
+                        "Final Drive": "Sealed chain"
+                    },
+                    "AVIONICS": {
+                        "Instrumentation": "4.3-inch full-color TFT",
+                        "Smartphone Connectivity": "RIDEOLOGY THE APP",
+                        "Traction Control": "Kawasaki KTRC",
+                        "Power Modes": "Full / Low",
+                        "ABS": "Kawasaki KIBS",
+                        "Quick Shifter": "Kawasaki KQS, upshift"
+                    },
+                    "PERFORMANCE": {
+                        "Maximum Horsepower": "127 hp @ 13,000 rpm",
+                        "Maximum Torque": "52.1 lb-ft @ 10,800 rpm",
+                        "Front Suspension": "41 mm Showa SFF-BP inverted fork",
+                        "Rear Suspension": "Uni-Trak single shock",
+                        "Front Tire": "120/70 ZR17",
+                        "Rear Tire": "180/55 ZR17"
+                    }
+                },
+                "NOISES PRODUCED": [],
+                "images": [
+                    {
+                        "name": "Exterior",
+                        "file": "",
+                        "comment": "Standard 2026 Ninja ZX-6R configuration."
+                    },
+                    {
+                        "name": "Cockpit",
+                        "file": "",
+                        "comment": "Full-color TFT instrumentation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "manufacturer": "Harley-Davidson",
+        "models": [
+            {
+                "id": "harley-davidson-sportster-s",
+                "name": "Sportster S",
+                "year": 2021,
+                "type": "cruiser",
+                "sections": {
+                    "GENERAL": {
+                        "Length": "89.4 in",
+                        "Width": "33.1 in",
+                        "Wheelbase": "59.8 in",
+                        "Seat Height": "28.9 in",
+                        "Ground Clearance": "3.5 in",
+                        "Weight in Running Order": "502 lb",
+                        "Fuel Capacity": "3.1 gal"
+                    },
+                    "POWERTRAIN": {
+                        "Engine": "Revolution Max 1250T",
+                        "Displacement": "1,252 cc",
+                        "Bore": "4.134 in",
+                        "Stroke": "2.846 in",
+                        "Compression Ratio": "12.0:1",
+                        "Fuel System": "Electronic Sequential Port Fuel Injection",
+                        "Exhaust": "2-into-1-into-2",
+                        "Transmission": "6-speed"
+                    },
+                    "AVIONICS": {
+                        "Display": "4-inch color TFT",
+                        "Bluetooth": "Phone and media connectivity",
+                        "Navigation": "H-D App",
+                        "Cruise Control": "Standard",
+                        "TPMS": "Installed",
+                        "Traction Control": "Cornering Rider Safety Enhancements"
+                    },
+                    "PERFORMANCE": {
+                        "Horsepower": "121 hp @ 7,500 rpm",
+                        "Torque": "93 ft-lb @ 6,000 rpm",
+                        "Lean Angle Right": "35°",
+                        "Lean Angle Left": "35°",
+                        "Front Suspension": "43 mm inverted fork",
+                        "Rear Suspension": "Linkage-mounted piggyback monoshock",
+                        "Front Tire": "160/70R17",
+                        "Rear Tire": "180/70R16"
+                    }
+                },
+                "NOISES PRODUCED": [],
+                "images": [
+                    {
+                        "name": "Exterior",
+                        "file": "",
+                        "comment": "Standard 2026 Sportster S configuration."
+                    },
+                    {
+                        "name": "Instrumentation",
+                        "file": "",
+                        "comment": "4-inch color TFT display."
+                    }
+                ]
+            }
+        ]
+    }
+]
+}
