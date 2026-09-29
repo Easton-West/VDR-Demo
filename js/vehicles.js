@@ -14,7 +14,7 @@ async function loadVehicles() {
 
     const response =
         await fetch(
-            "/data/vehicles.json"
+            "data/vehicles.json"
         );
 
 
