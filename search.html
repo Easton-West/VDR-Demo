@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>VDR // Search</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <div class="scanlines"></div>
+
+
+    <header class="topbar">
+
+        <a class="brand"
+           href="index.html">
+
+            <span class="status-dot"></span>
+
+            VDR // VEHICLE DATA REPOSITORY
+
+        </a>
+
+
+        <div class="system-status">
+
+            SEARCH:
+            <span>ACTIVE</span>
+
+        </div>
+
+    </header>
+
+
+
+    <main class="content">
+
+        <div class="breadcrumbs">
+
+            <a href="index.html">
+                HOME
+            </a>
+
+            /
+
+            <span>
+                SEARCH
+            </span>
+
+        </div>
+
+
+
+        <div class="search-page-header">
+
+            <div>
+
+                <div class="eyebrow">
+                    DATABASE SEARCH
+                </div>
+
+                <h1>
+                    SEARCH RESULTS
+                </h1>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="search-interface">
+
+            <input
+                id="searchInput"
+                type="search"
+                placeholder="SEARCH REPOSITORY..."
+                autocomplete="off"
+            >
+
+
+		<select id="searchScope"></select>
+
+
+            <button id="searchButton">
+                SEARCH
+            </button>
+
+        </div>
+
+
+
+        <div id="searchSummary"
+             class="search-summary">
+
+        </div>
+
+
+
+        <div id="searchResults"
+             class="search-results">
+
+        </div>
+
+    </main>
+
+
+
+    <footer>
+
+        <span>
+            VDR SYSTEM // BUILD 0.1.0
+        </span>
+
+        <a href="index.html">
+            ← RETURN TO MAIN INDEX
+        </a>
+
+    </footer>
+
+	<script src="js/search.js"></script>
+
+</body>
+
+</html>
