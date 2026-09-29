@@ -1,7 +1,7 @@
 let database = null;
 
 async function loadDatabase() {
-    const response = await fetch("/data/vehicles.json");
+    const response = await fetch("data/vehicles.json");
 
     if (!response.ok) {
         throw new Error(
